@@ -48,24 +48,24 @@ i.fa {
     color: white;
 }
 
-div.square-content:nth-child(5) div.square {
-    background-color:  #44ea1a;
+div.square-content:nth-child(1) div.square{
+    background-color: #4F69A6;
 }
 
-div.square-content:nth-child(4) div.square{
+div.square-content:nth-child(2) div.square{
     background-color: #1AB7EA;
 }
 
 div.square-content:nth-child(3) div.square{
-    background-color: rgb(255, 121, 121);
+    background-color:#D54B3D;
 }
 
-div.square-content:nth-child(2) div.square{
-    background-color: rgb(255, 133, 133);
+div.square-content:nth-child(4) div.square{
+    background-color: #0274B3;
 }
 
-div.square-content:nth-child(1) div.square{
-    background-color: #4F69A6;
+div.square-content:nth-child(5) div.square{
+    background-color: #D12F8A;
 }
 
 div.square-content:hover div.square:nth-child(5)  {

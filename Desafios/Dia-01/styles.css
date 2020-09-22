@@ -34,50 +34,62 @@ div.square {
     width: 80px;
     height: 80px;
     background-color: red;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 
-    transition: transform .5s;
-   
+    transition: .5s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-div.square:nth-child(5) {
-    background-color: rgb(255, 82, 82);
+i.fa {
+    transform: scale(3, 3);
+    color: white;
 }
 
-div.square:nth-child(4) {
-    background-color: rgb(250, 103, 103);
+div.square-content:nth-child(5) div.square {
+    background-color:  #44ea1a;
 }
 
-div.square:nth-child(3) {
+div.square-content:nth-child(4) div.square{
+    background-color: #1AB7EA;
+}
+
+div.square-content:nth-child(3) div.square{
     background-color: rgb(255, 121, 121);
 }
 
-div.square:nth-child(2) {
+div.square-content:nth-child(2) div.square{
     background-color: rgb(255, 133, 133);
 }
 
-div.square:nth-child(1) {
-    background-color: rgb(255, 169, 169);
+div.square-content:nth-child(1) div.square{
+    background-color: #4F69A6;
 }
 
 div.square-content:hover div.square:nth-child(5)  {
     transform: translate(40px, -40px);
-    
+    opacity: 1;
 }
 
 div.square-content:hover div.square:nth-child(4)  {
     transform: translate(30px, -30px);
+    opacity: 0.8;
 }
 
 div.square-content:hover div.square:nth-child(3)  {
     transform: translate(20px, -20px);
+    opacity: 0.6;
 }
 
 div.square-content:hover div.square:nth-child(2)  {
     transform: translate(10px, -10px);
+    opacity: 0.4;
 }
 
 div.square-content:hover div.square:nth-child(1)  {
     transform: translate(0px, 0px);
+    opacity: 0.2;
 }
 

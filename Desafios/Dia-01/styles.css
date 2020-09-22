@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+div.square-content {
+    position: relative;
+  
+    transform: rotate(-30deg) skew(25deg);
+    transition: margin-bottom 0.2s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 90px ;
+}
+
+
+
+div.square {
+    position: absolute;
+
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    margin: 0 auto;
+
+    transition: transform .5s;
+   
+}
+
+div.square:nth-child(5) {
+    background-color: rgb(255, 82, 82);
+}
+
+div.square:nth-child(4) {
+    background-color: rgb(250, 103, 103);
+}
+
+div.square:nth-child(3) {
+    background-color: rgb(255, 121, 121);
+}
+
+div.square:nth-child(2) {
+    background-color: rgb(255, 133, 133);
+}
+
+div.square:nth-child(1) {
+    background-color: rgb(255, 169, 169);
+}
+
+div.square-content:hover div.square:nth-child(5)  {
+    transform: translate(40px, -40px);
+    
+}
+
+div.square-content:hover div.square:nth-child(4)  {
+    transform: translate(30px, -30px);
+}
+
+div.square-content:hover div.square:nth-child(3)  {
+    transform: translate(20px, -20px);
+}
+
+div.square-content:hover div.square:nth-child(2)  {
+    transform: translate(10px, -10px);
+}
+
+div.square-content:hover div.square:nth-child(1)  {
+    transform: translate(0px, 0px);
+}
+

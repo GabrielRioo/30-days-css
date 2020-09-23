@@ -61,15 +61,13 @@ Gostou da ideia?
 ![Dia 01](https://user-images.githubusercontent.com/37448340/88348819-d38d7000-cd24-11ea-99d1-39b04afb77f2.gif)
 
 
-[Meu codigo]()
+[Meu codigo](https://github.com/GabrielRioo/30-days-css/tree/master/Desafios/Dia-01)
 
-[Tutorial Medium]() *Ainda não disponivel*
-
-[Post LinkedIn]() 
+[Post LinkedIn](https://www.linkedin.com/posts/gabrielpaivario_30diasdecss-activity-6714178651719634945-Si2h) 
 
 
 ##### O que eu aprendi
-* [Transform Rotate](https://www.w3schools.com/cssref/css3_pr_transform.asp)
+* [Transform Rotate, Scale and Skew](https://www.w3schools.com/cssref/css3_pr_transform.asp)
 * [nth-child](https://www.w3schools.com/cssref/sel_nth-child.asp)
 
 ##  Desafio dia 02 - Loader animado <a name="id02"></a>

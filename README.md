@@ -74,15 +74,18 @@ Gostou da ideia?
 ![Dia 02](https://user-images.githubusercontent.com/37448340/88348825-d5573380-cd24-11ea-832c-989e091167b8.gif)
 
 
-[Meu código]()
+[Meu código](https://github.com/GabrielRioo/30-days-css/tree/master/Desafios/Dia-02)
 
-[Tutorial Medium]() *Ainda não disponivel*
-
-[Post LinkedIn]()
+[Post LinkedIn](https://www.linkedin.com/posts/gabrielpaivario_30diasdecss-activity-6714490360111906816-q9XW)
 
 ##### O que eu aprendi
 
 * *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+   * animation-duration: 2s
+   * animation-name
+   * animation-iteration-count: infinite
+   * animation-timing-function: linear
+   * @keyframes
 
 
 

@@ -9,14 +9,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(236, 236, 236);
 }
 
 div {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(231, 231, 231);
     background: white;
     border: 1px solid rgb(201, 201, 201);
     display: flex;
@@ -33,12 +33,12 @@ div {
 
 .loading {
     position: absolute;
-    color: rgb(190, 190, 190);
+    color: rgb(148, 148, 148);
     font-size: 25pt;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 3px;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(236, 236, 236);
 }
 
 .circle-rotate
@@ -46,10 +46,10 @@ div {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    box-shadow: 0px 3px 0px #ffffff;
+    box-shadow: 0px 1px 0px #464646;
                 
     background: transparent;
-    animation: animate 2s linear infinite;
+    animation: animate 1s linear infinite;
 }
 
 @keyframes animate {

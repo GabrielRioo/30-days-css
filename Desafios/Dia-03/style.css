@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+}
+
+section div.color-primary {
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(68, 68, 68);
+    color: rgb(218, 218, 218);
+}
+
+section div.text-animation {
+    animation: 2s linear  infinite;
+    color: red;
+    position: absolute;
+}
+
+section div.color-secondary {
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(218, 218, 218);
+    color: rgb(68, 68, 68);
+    position: absolute;
+}
+

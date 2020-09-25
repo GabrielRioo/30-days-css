@@ -94,17 +94,17 @@ Gostou da ideia?
 <img src="Desafios/dia 03/gif/dia03.gif">
 
 
-[Meu código]()
-
-[Tutorial Medium]() *Ainda não disponivel*
+[Meu código](https://github.com/GabrielRioo/30-days-css/tree/master/Desafios/Dia-03)
 
 [Post LinkedIn]()
 
 
 ##### Dicas
 
-* *[CSS Overflow](https://www.w3schools.com/css/css_overflow.asp)* 
-* *Use [animations](https://www.w3schools.com/css/css3_animations.asp)*
+* [CSS Overflow](https://www.w3schools.com/css/css_overflow.asp)
+   * hidden
+* [animations](https://www.w3schools.com/css/css3_animations.asp)
+   * Transition: translate
 
 
 ##  Desafio dia 04 - Botão com efeito <a name="id04"></a>

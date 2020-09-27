@@ -110,9 +110,7 @@ Gostou da ideia?
 ##  Desafio dia 04 - Botão com efeito <a name="id04"></a>
 ![dia 04](https://user-images.githubusercontent.com/37448340/88242961-38819100-cc65-11ea-82b3-b541ff8cb3d7.gif)
 
-[Meu codigo]()
-
-[Tutorial Medium]() *Ainda não disponivel*
+[Meu codigo](https://github.com/GabrielRioo/30-days-css/tree/master/Desafios/Dia-04)
 
 [Post LinkedIn]()
 
@@ -123,9 +121,7 @@ Gostou da ideia?
 ##  Desafio dia 05 - Efeito pulsar <a name="id05"></a>
 ![dia 05](https://user-images.githubusercontent.com/37448340/88354131-4d7a2500-cd36-11ea-800e-eec277f17737.gif)
 
-[Meu codigo]()
-
-[Tutorial Medium]() *Ainda não disponivel*
+[Meu codigo](https://github.com/GabrielRioo/30-days-css/tree/master/Desafios/Dia-05)
 
 [Post LinkedIn]()
 
@@ -136,14 +132,13 @@ Gostou da ideia?
 ![dia 06](https://user-images.githubusercontent.com/37448340/88449709-5d216880-ce1f-11ea-924b-18acde214ce9.gif)
 
 
-[Meu codigo]()
-
-[Tutorial Medium]() *Ainda não disponivel*
+[Meu codigo](https://github.com/GabrielRioo/30-days-css/tree/master/Desafios/Dia-06)
 
 [Post LinkedIn]()
 
 ##### O que eu aprendi
-
+* animation-delay
+* nth-child()
 
 ##  Desafio dia 07 - Preloader animado <a name="id07"></a>
 ![dia 07](https://user-images.githubusercontent.com/37448340/88490911-412fdb00-cf75-11ea-806c-c41df0d1727e.gif)

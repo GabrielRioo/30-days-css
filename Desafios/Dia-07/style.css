@@ -11,17 +11,18 @@ body {
     align-items: center;
 }
 
-div sapn.square {
-    width: 200px;
-    height: 200px;
+div.content {
+    width: 150px;
+    height: 150px;
     position: relative;
+    
 }
 
 span.square {
     width: 50px;
     height: 50px;
     background-color: red;
-    animation: animate linear 3s infinite;
+    animation: animate linear 2s infinite;
     border-radius: 8px;
 
     position: absolute;    
@@ -34,12 +35,33 @@ span.square:nth-child(3) { animation-delay: 1.4s; }
 
 @keyframes animate {
     0% { transform: translate(0, 0); }
-    12.5% { transform: translate(0, 0); }
-    25% { transform: translate(0, 50px); }
-    37.5% { transform: translate(0, 50px); }
-    50% { transform: translate(50px, 50px); }
-    62.5% { transform: translate(50px, 50px); }
-    75% { transform: translate(50px, 0); }
-    87.5% { transform: translate(50px, 0); }
+    12.5% { transform: translate(0, 70px); }
+    25% { transform: translate(0, 70px); }
+    37.5% { transform: translate(70px, 70px); }
+    50% { transform: translate(70px, 70px); }
+    62.5% { transform: translate(70px, 0); }
+    75% { transform: translate(70px, 0); }
+    87.5% { transform: translate(0, 0); }
     100% { transform: translate(0, 0); }
 } 
+
+/* @keyframes animate 
+    {
+        0% {top: 0; left: 0;}
+    
+        12.5% { top: 0; left: 50%;}
+    
+        25% { top: 0; left: 50%;}
+    
+        37.5% { top: 50%; left: 50%;}
+    
+        50% { top: 50%; left: 50%;}
+    
+        62.5% { top: 50% ; left: 0;}
+    
+        75% { top: 50% ; left: 0;}
+    
+        82.5% { top: 0; left: 0;}
+    
+        100% { top: 0; left: 0;}
+    } */

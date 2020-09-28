@@ -9,25 +9,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(26, 26, 26);
 }
 
 div.content {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     position: relative;
+
     
 }
 
 span.square {
     width: 50px;
     height: 50px;
-    background-color: red;
+    background-color: rgb(233, 233, 233);
     animation: animate linear 2s infinite;
-    border-radius: 8px;
+    border-radius: 50%;
+    
 
     position: absolute;    
 
 }
+
+
 
 span.square:nth-child(1) { animation-delay: 0s; }
 span.square:nth-child(2) { animation-delay: .7s; }
@@ -37,15 +42,41 @@ span.square:nth-child(3) { animation-delay: 1.4s; }
 /* 77% {box-shadow:10px 0 0 #999,20px 0 0 #777,30px 0 0 #666,40px 0 0 #555,50px 0 0 #444} */
 
 @keyframes animate {
-    0% { transform: translate(0, 0); }
-    12.5% { transform: translate(0, 70px); box-shadow:0px -10px 0 #999,0px -20px 0 #777,0px -30px 0 #666,0px -40px 0 #555,0px -50px 0 #444}
-    25% { transform: translate(0, 70px); box-shadow: none;}
-    37.5% { transform: translate(70px, 70px); box-shadow:-10px 0 0 #999,-20px 0 0 #777,-30px 0 0 #666,-40px 0 0 #555,-50px 0 0 #444}
-    50% { transform: translate(70px, 70px); box-shadow: none;}
-    62.5% { transform: translate(70px, 0); box-shadow:0px 10px 0 #999,0px 20px 0 #777,0px 30px 0 #666,0px 40px 0 #555,0px 50px 0 #444}
-    75% { transform: translate(70px, 0); box-shadow: none;}
-    87.5% { transform: translate(0, 0); box-shadow:10px 0 0 #999,20px 0 0 #777,30px 0 0 #666,40px 0 0 #555,50px 0 0 #444}
-    100% { transform: translate(0, 0); box-shadow: none;}
+    0% { 
+        transform: translate(0, 0); 
+    }
+    12.5% { 
+        transform: translate(0, 70px);    
+        box-shadow: 0px -4px 0 rgb(190, 0, 0),0px -8px 0 rgb(170, 0, 0),0px -12px 0 rgb(126, 0, 0),0px -16px 0 rgb(71, 0, 0),0px -20px 0 rgb(20, 0, 0)
+    }
+    25% { 
+        transform: translate(0, 70px);      
+        box-shadow: none;
+    }
+    37.5% { 
+        transform: translate(70px, 70px); 
+        box-shadow: -4px 0 0 rgb(190, 0, 0)  ,-8px 0 0 rgb(170, 0, 0),-12px 0 0 rgb(126, 0, 0),-16px 0 0 rgb(71, 0, 0),-20px 0 0 rgb(20, 0, 0)
+    }
+    50% { 
+        transform: translate(70px, 70px);  
+        box-shadow: none;
+    }
+    62.5% { 
+        transform: translate(70px, 0);    
+        box-shadow: 0px 4px 0 rgb(190, 0, 0),0px 8px 0 rgb(170, 0, 0),0px 12px 0 rgb(126, 0, 0),0px 16px 0 rgb(71, 0, 0),0px 20px 0 rgb(20, 0, 0)
+    }
+    75% { 
+        transform: translate(70px, 0);      
+        box-shadow: none;
+    }
+    87.5% { 
+        transform: translate(0, 0);       
+        box-shadow: 4px 0 0 rgb(190, 0, 0),8px 0 0 rgb(170, 0, 0),12px 0 0 rgb(126, 0, 0),16px 0 0 rgb(71, 0, 0),20px 0 0 rgb(20, 0, 0)
+    }
+    100% { 
+        transform: translate(0, 0);        
+        box-shadow: none;
+    }
 } 
 
 /* @keyframes rastro {

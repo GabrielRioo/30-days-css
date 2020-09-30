@@ -58,7 +58,7 @@ Gostou da ideia?
 
 
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
-![Dia 01](https://user-images.githubusercontent.com/37448340/88348819-d38d7000-cd24-11ea-99d1-39b04afb77f2.gif)
+![Dia 01](https://github.com/GabrielRioo/30-days-css/blob/master/Gifs/Dia01.gif)
 
 
 [Meu codigo](https://github.com/GabrielRioo/30-days-css/tree/master/Desafios/Dia-01)
@@ -71,7 +71,7 @@ Gostou da ideia?
 * [nth-child](https://www.w3schools.com/cssref/sel_nth-child.asp)
 
 ##  Desafio dia 02 - Loader animado <a name="id02"></a>
-![Dia 02](https://user-images.githubusercontent.com/37448340/88348825-d5573380-cd24-11ea-832c-989e091167b8.gif)
+![Dia 02](https://github.com/GabrielRioo/30-days-css/blob/master/Gifs/Dia02.gif)
 
 
 [Meu código](https://github.com/GabrielRioo/30-days-css/tree/master/Desafios/Dia-02)
@@ -91,12 +91,12 @@ Gostou da ideia?
 
 ##  Desafio dia 03 - Mudança de cor de texto quando entra em outra div <a name="id03"></a>
 
-<img src="Desafios/dia 03/gif/dia03.gif">
+<img src="https://github.com/GabrielRioo/30-days-css/blob/master/Gifs/Dia03.gif">
 
 
 [Meu código](https://github.com/GabrielRioo/30-days-css/tree/master/Desafios/Dia-03)
 
-[Post LinkedIn]()
+[Post LinkedIn](https://www.linkedin.com/posts/gabrielpaivario_30diasdecss-css-html-activity-6715409964883599360-dPpW)
 
 
 ##### Dicas
@@ -108,61 +108,57 @@ Gostou da ideia?
 
 
 ##  Desafio dia 04 - Botão com efeito <a name="id04"></a>
-![dia 04](https://user-images.githubusercontent.com/37448340/88242961-38819100-cc65-11ea-82b3-b541ff8cb3d7.gif)
+![dia 04](https://github.com/GabrielRioo/30-days-css/blob/master/Gifs/Dia04.gif)
 
 [Meu codigo](https://github.com/GabrielRioo/30-days-css/tree/master/Desafios/Dia-04)
 
-[Post LinkedIn]()
+[Post LinkedIn](https://www.linkedin.com/posts/gabrielpaivario_30diasdecss-css-html-activity-6715409964883599360-dPpW)
 
 ##### O que eu aprendi
 
 
 
 ##  Desafio dia 05 - Efeito pulsar <a name="id05"></a>
-![dia 05](https://user-images.githubusercontent.com/37448340/88354131-4d7a2500-cd36-11ea-800e-eec277f17737.gif)
+![dia 05](https://github.com/GabrielRioo/30-days-css/blob/master/Gifs/Dia05.gif)
 
 [Meu codigo](https://github.com/GabrielRioo/30-days-css/tree/master/Desafios/Dia-05)
 
-[Post LinkedIn]()
+[Post LinkedIn](https://www.linkedin.com/posts/gabrielpaivario_30diasdecss-activity-6715808281727705088-UpZo)
 
 ##### O que eu aprendi
 
 
 ##  Desafio dia 06 - Efeito lightning text <a name="id06"></a>
-![dia 06](https://user-images.githubusercontent.com/37448340/88449709-5d216880-ce1f-11ea-924b-18acde214ce9.gif)
+![dia 06](https://github.com/GabrielRioo/30-days-css/blob/master/Gifs/Dia06.gif)
 
 
 [Meu codigo](https://github.com/GabrielRioo/30-days-css/tree/master/Desafios/Dia-06)
 
-[Post LinkedIn]()
+[Post LinkedIn](https://www.linkedin.com/posts/gabrielpaivario_30diasdecss-activity-6716136241361944576-thE1)
 
 ##### O que eu aprendi
 * animation-delay
 * nth-child()
 
 ##  Desafio dia 07 - Preloader animado <a name="id07"></a>
-![dia 07](https://user-images.githubusercontent.com/37448340/88490911-412fdb00-cf75-11ea-806c-c41df0d1727e.gif)
+![dia 07](https://github.com/GabrielRioo/30-days-css/blob/master/Gifs/Dia07.gif)
 
 
-[Meu codigo]()
+[Meu codigo](https://github.com/GabrielRioo/30-days-css/tree/master/Desafios/Dia-07)
 
-[Tutorial Medium]() *Ainda não disponivel*
-
-[Post LinkedIn]()
+[Post LinkedIn](https://www.linkedin.com/posts/gabrielpaivario_30diasdecss-activity-6716494109047091200-zKp0)
 
 ##### O que eu aprendi
 
 
 
 ##  Desafio dia 08 - Coração batendo <a name="id08"></a>
-![gif](https://user-images.githubusercontent.com/37448340/88534017-9c95b380-cfdd-11ea-9b54-b883fd9f9e77.gif)
+![gif](https://github.com/GabrielRioo/30-days-css/blob/master/Gifs/Dia08.gif)
 
 
-[Meu codigo]()
+[Meu codigo](https://github.com/GabrielRioo/30-days-css/tree/master/Desafios/Dia-08)
 
-[Tutorial Medium]() *Ainda não disponivel*
-
-[Post LinkedIn]()
+[Post LinkedIn](https://www.linkedin.com/posts/gabrielpaivario_30diasdecss-css-html-activity-6716817382205124608-8TuZ)
 
 ##### O que eu aprendi
 

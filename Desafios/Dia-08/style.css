@@ -22,7 +22,7 @@ span.heart {
                 -5px -10px 150px rgb(255, 58, 58),
                 -5px -15px 200px rgb(255, 100, 100);
 
-    transform: rotate(50deg);
+    transform: rotate(45deg);
     position: relative;
 
     animation: animate linear 2s infinite;
@@ -52,27 +52,27 @@ span.heart::after {
 
 @keyframes animate {
     0% {
-        transform: rotate(50deg) scale(1);
+        transform: rotate(45deg) scale(1);
 
     }
     25% {
-        transform: rotate(50deg) scale(1);
+        transform: rotate(45deg) scale(1);
         
     }
     35% {
-        transform: rotate(50deg) scale(1.2);
+        transform: rotate(45deg) scale(1.2);
 
     }
-    50% {
-        transform: rotate(50deg) scale(1.1);
+    45% {
+        transform: rotate(45deg) scale(1.1);
         
     }
     75% {
-        transform: rotate(50deg) scale(1.2);
+        transform: rotate(45deg) scale(1.2);
         
     }
     100% {
-        transform: rotate(50deg) scale(1);
+        transform: rotate(45deg) scale(1);
         
     }
 }

@@ -174,6 +174,10 @@ Gostou da ideia?
 [Post LinkedIn]()
 
 ##### O que eu aprendi
+* [:first-child / last-child](https://www.w3schools.com/cssref/sel_firstchild.asp)
+* Como alterar duas animações.
+* [Transform-origin](https://www.w3schools.com/cssref/css3_pr_transform-origin.asp)
+* [Background: linear-gradient()](https://cssgradient.io/) <-> **Site para gradientes**
 
 
 ##  Desafio dia 10 - Animação texto alternando <a name="id10"></a>

@@ -9,69 +9,95 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(48, 76, 92);
+    background-color: rgb(48, 80, 92);
 }
 
 section.base {
     width: 465px;
-    height: 10px;
-    background-color: white;
+    height: 18px;
+    background:linear-gradient(180deg, rgb(196, 196, 196) 0%, rgb(48, 48, 48) 40%, rgb(49, 49, 49) 100%);
+    border-radius: 12px;
 
     position: relative;
 }
 
-section.base span.lines:nth-child(1) {
+section.base span.lines{
     width: 5px;
     height: 350px;
-    background-color: white;
+    background: linear-gradient(40deg, rgb(131, 131, 131) 80%, rgb(65, 65, 65) 92%, rgb(49, 49, 49) 100%);
+    z-index: 0;
+    border-radius: 12px;
 
     position: absolute;
-    left: 30px;
+    top: 10px;
 }
 
-section.base span.lines:nth-child(2) {
-    width: 5px;
-    height: 350px;
-    background-color: white;
+section.base span.lines:nth-child(1) { left: 30px; }
 
-    position: absolute;
-    left: 130px;
+section.base span.lines:nth-child(2) { left: 130px; }
+
+section.base span.lines:nth-child(3) { left: 230px; }
+
+section.base span.lines:nth-child(4) { left: 330px; }
+
+section.base span.lines:nth-child(5) { left: 430px; }
+
+section.base span.lines:first-child {
+    animation: animate-left linear 2s infinite;
+    transform-origin: 20% 0;
 }
 
-section.base span.lines:nth-child(3) {
-    width: 5px;
-    height: 350px;
-    background-color: white;
-
-    position: absolute;
-    left: 230px;
+section.base span.lines:last-child {
+    animation: animate-right 2s linear 2s infinite;
+    transform-origin: 20% 0;
 }
 
-section.base span.lines:nth-child(4) {
-    width: 5px;
-    height: 350px;
-    background-color: white;
 
-    position: absolute;
-    left: 330px;
-}
-
-section.base span.lines:nth-child(5) {
-    width: 5px;
-    height: 350px;
-    background-color: white;
-
-    position: absolute;
-    left: 430px;
-}
-
-section.base span.lines span.circle:nth-child(1) {
+section.base span.lines span.circle {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: white;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgb(31, 31, 31) 0%, rgb(216, 216, 216) 100%);
 
     position: absolute;
     bottom: -70PX;
     left: -45px;
+}
+
+
+
+@keyframes animate-left {
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+         transform: rotate(0deg);
+    }
+
+    75%{
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes animate-right {
+     25% {
+        transform: rotate(-45deg);
+    }
+
+    50% {
+         transform: rotate(0deg);
+    }
+
+    75%{
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }

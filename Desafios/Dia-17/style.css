@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(24, 24, 24);
+   
+}
+
+.table {
+    position: absolute;
+}
+.circle {
+    width: 1200px;
+    height: 900px;
+    
+    border-radius: 50%;
+    background-color: brown;
+    transform: rotateX(75deg) rotateY(0deg);
+
+    
+}
+
+
+.dice {
+    perspective: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cube {
+    animation: rotation linear 10s infinite;
+    position: absolute;
+    font-size: 4em;
+    width: 2em;
+    margin: 1.5em auto;
+    transform-style: preserve-3d;
+    transform: rotateX(-45deg) rotateY(30deg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.side {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(148, 148, 148);
+    text-align: center;
+    line-height: 2em;
+}
+
+.front { transform: translateZ(1em); }
+.top { transform: rotateX(90deg) translateZ(1em);}
+.right { transform: rotateY(90deg) translateZ(1em); }
+.left { transform: rotateY(-90deg) translateZ(1em); }
+.bottom { transform: rotateX(-90deg) translateZ(1em); }
+.back { transform: rotateY(-180deg) translateZ(1em); }
+
+
+div.square {
+    width: 100px;
+    height: 100px;
+
+    
+
+    background-color: brown;
+    border-radius: 12px;
+
+}
+
+@keyframes rotation {
+    0%{ 
+        transform: rotateX(0deg) rotateY(360deg);
+    }
+    25%{
+        transform: rotateX(360deg) rotateY(0deg);
+
+    }
+    50%{ 
+        transform: rotateX(0deg) rotateY(360deg);
+
+    }
+    75%{
+        transform: rotateX(360deg) rotateY(0deg);
+
+    }
+    100%{ 
+        transform: rotateX(0deg) rotateY(360deg);
+    }
+}

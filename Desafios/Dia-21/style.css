@@ -16,7 +16,7 @@ body {
 
 div.context {
     width: 500px;
-    height: 500px;
+    height: 200px;
 
     position: relative;
 }
@@ -25,9 +25,13 @@ div.context div.line {
     height: 20px;
     width: 500px;
 
-    background-color: white;
+    background-color: rgb(58, 58, 58);
+
     position: absolute;
     bottom: 0;
+    border-radius: 50%;
+
+    animation: colorLine linear 2s infinite;
 }
 
 div.context span {
@@ -35,18 +39,11 @@ div.context span {
     height: 80px;
 
     border-radius: 50%;
-
-    background-color: red;
-    position: absolute;
-    bottom: 170px;
-
-    box-shadow: 0 0 8px rgba(134,255,0,1),
-                0 0 20px rgba(134,255,0,1),
-                0 0 40px rgba(134,255,0,1),
-                0 0 60px rgba(134,255,0,1),
-                0 0 80px rgba(134,255,0,1);
+    background-color: white;
 
     
+    position: absolute;
+    bottom: 155px;
 
     display: flex;
     justify-content: center;
@@ -55,26 +52,32 @@ div.context span {
     animation: animate linear 1.5s infinite;
 }
 
+
+
 div.context span:nth-child(2) {
     margin-left: 105px;
     animation-delay: .2s;
+    /* background-color: rgb(229, 255, 0); */
 }
 
 div.context span:nth-child(3) {
     margin-left: calc(105px * 2);
     animation-delay: .4s;
+    /* background-color: rgb(30, 255, 0); */
 
 }
 
 div.context span:nth-child(4) {
     margin-left: calc(105px * 3);
     animation-delay: .6s;
+    /* background-color: rgb(17, 0, 255); */
 
 }
 
 div.context span:nth-child(5) {
     margin-left: calc(105px * 4);
     animation-delay: .8s;
+    /* background-color: rgb(234, 0, 255); */
 
 }
 
@@ -101,3 +104,14 @@ div.context span:nth-child(5) {
 
     }
 }
+
+/* @keyframes colorLine {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+} */

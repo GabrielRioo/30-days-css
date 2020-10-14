@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+}
+
+div.context {
+    width: 500px;
+    height: 500px;
+
+    position: relative;
+}
+
+div.context div.line {
+    height: 20px;
+    width: 500px;
+
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+div.context span {
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+
+    background-color: red;
+    position: absolute;
+    bottom: 170px;
+
+    box-shadow: 0 0 8px rgba(134,255,0,1),
+                0 0 20px rgba(134,255,0,1),
+                0 0 40px rgba(134,255,0,1),
+                0 0 60px rgba(134,255,0,1),
+                0 0 80px rgba(134,255,0,1);
+
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: animate linear 1.5s infinite;
+}
+
+div.context span:nth-child(2) {
+    margin-left: 105px;
+    animation-delay: .2s;
+}
+
+div.context span:nth-child(3) {
+    margin-left: calc(105px * 2);
+    animation-delay: .4s;
+
+}
+
+div.context span:nth-child(4) {
+    margin-left: calc(105px * 3);
+    animation-delay: .6s;
+
+}
+
+div.context span:nth-child(5) {
+    margin-left: calc(105px * 4);
+    animation-delay: .8s;
+
+}
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+        transform: translateY(0px);
+    }
+    25% { 
+        transform: translateY(150px);
+    }
+    50% { 
+        transform: translateY(0px);
+    }
+
+    75% { 
+        transform: translateY(150px);
+    }
+
+    100% {
+
+        transform: translateY(0px);
+        filter: hue-rotate(360deg);
+
+    }
+}

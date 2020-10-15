@@ -20,6 +20,8 @@ span.circle {
 
     border-radius: 50%;
 
+    margin-left: 15px;
+
     background-color: whitesmoke;
 
     position: relative;
@@ -27,6 +29,7 @@ span.circle {
     justify-content: center;
     align-items: center;
 
+    transition: all 1s;
 }
 
 span.circle:hover {
@@ -35,19 +38,30 @@ span.circle:hover {
 
 }
 
-span.circle:hover::before {
+span.circle:before {
     content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+    opacity: 0;
+
+    position: absolute;
+
+
+}
+
+span.circle:hover::before {
+    opacity: 1;
+    background-color: transparent;
+    position: absolute;
     width: 88px;
     height: 88px;
 
     border: 2px dashed red;
-    border-radius: 50%;
-    background-color: transparent;
-
-    position: absolute;
-    
 
     animation: loopcircle linear 10s infinite;
+
 }
 
 @keyframes loopcircle {

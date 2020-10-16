@@ -48,8 +48,8 @@ div span.square:nth-child(4) { background-color: #48DBFB; }
     }
 
     50% {
-        width: 150px;
-        height: 150px;
+        width: 160px;
+        height: 160px;
     }
 
     75% {

@@ -14,9 +14,44 @@ body {
     background-color: rgb(190, 190, 190);
 }
 
-i {
-    transform: scale(5);
-    
-    margin-right: 150px;
+div.content {
+    position: relative;
+}
+
+div.content input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 1;
+
+
+}
+
+div.content input,
+div.content span.icon {
+    font-size: 100px;
+
+    width: 100px;
+    height: 100px;
+
+    margin-right: 80px;
+
+    /* transition: color 2s; */
+}
+
+
+div.content input:checked ~ span.icon{
+    color: red;
+    animation: animate linear 5s infinite;
+}
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
 }
 

@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(24, 24, 24);
 }
 
 div.content {
@@ -30,6 +30,7 @@ div.content input {
 div.content input,
 div.content span.icon {
     font-size: 100px;
+    color: rgb(63, 63, 63);
 
     width: 100px;
     height: 100px;
@@ -43,6 +44,11 @@ div.content span.icon {
 div.content input:checked ~ span.icon{
     color: red;
     animation: animate linear 5s infinite;
+    text-shadow: 0 0 50px rgb(245, 0, 0),
+                 0 0 5px rgba(0, 0, 255, 0.404);
+    
+
+    transition: 1s;
 }
 
 @keyframes animate {

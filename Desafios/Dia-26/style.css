@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     background-color: rgb(43, 43, 43);
 }
@@ -36,7 +37,7 @@ section div.circle {
     height: 50px;
 
     /* background: rgb(0, 0, 0); */
-    background: linear-gradient(180deg, rgb(226, 226, 226) 0%, rgb(11, 221, 218) 91%, rgb(18, 193, 216)100%);
+    background: linear-gradient(180deg, rgb(128, 128, 128) 0%, rgb(58, 58, 58) 50%, rgb(22, 22, 22)100%);
     border-radius: 50%;
 
     animation: animate ease-in-out 5s infinite;
@@ -71,7 +72,8 @@ section div.line {
     width: 200px;
     height: 10px;
 
-    background: rgb(207, 207, 207);
+    background: linear-gradient(180deg, rgb(128, 128, 128) 0%, rgb(58, 58, 58) 50%, rgb(22, 22, 22)100%);
+
 
     border-radius: 30px;
 }
@@ -99,5 +101,19 @@ section div.line {
         transform: rotateZ(40deg);
 
     }
+}
+
+ div.triangle {
+    /* position: relative; */
+
+    width: 30px; 
+    height: 30px; 
+
+    /* background: linear-gradient(180deg, rgb(128, 128, 128) 0%, rgb(58, 58, 58) 50%, rgb(22, 22, 22)100%); */
+
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    
+    border-bottom: 60px solid rgb(66, 66, 66);
 }
 

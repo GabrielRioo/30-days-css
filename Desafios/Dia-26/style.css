@@ -105,15 +105,27 @@ section div.line {
 
  div.triangle {
     /* position: relative; */
+    font-size: 6em;
+    margin-top: -23px;
+    
+    
+    color: transparent;
+    background: linear-gradient(180deg, rgb(59, 59, 59) 0%, rgb(63, 63, 63), rgb(128, 128, 128)100%);
+    -webkit-background-clip: text;
+    
+    
+    overflow: hidden;
 
-    width: 30px; 
+    /* -----TRIANGULO----- */
+
+    /* width: 30px; 
     height: 30px; 
-
-    /* background: linear-gradient(180deg, rgb(128, 128, 128) 0%, rgb(58, 58, 58) 50%, rgb(22, 22, 22)100%); */
 
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     
-    border-bottom: 60px solid rgb(66, 66, 66);
+    border-bottom: 60px solid rgb(156, 156, 156); */
+    
+   
 }
 

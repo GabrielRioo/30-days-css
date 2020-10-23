@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(43, 43, 43);
+}
+
+span.whatsapp {
+    position: relative;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    background: rgb(185, 255, 79);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+span.whatsapp::before {
+    position: absolute;
+
+    content: '';
+    width: 80px;
+    height: 80px;
+    border: 3px solid rgb(185, 255, 79);
+    border-radius: 50%;
+    filter: blur(1px);
+
+    background: transparent;
+
+    animation: animate linear 1.5s infinite;
+}
+
+span.whatsapp::after {
+    position: absolute;
+
+    content: '';
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgb(185, 255, 79);
+    border-radius: 50%;
+    filter: blur(.5px);
+
+    background: transparent;
+
+    animation: animate linear 1.5s infinite;
+    animation-delay: .5s;
+}
+
+@keyframes animate {
+
+    50% {
+        width: 120px;
+        height: 120px;
+        opacity: 0;
+    }
+
+
+    100% {
+        width: 120px;
+        height: 120px;
+        opacity: 0;
+     }
+}
+
+i.fas {
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+
+    animation: phone linear .7s infinite;
+}
+
+@keyframes phone {
+    0% { font-size: 2.5em; }
+    /* 50% { font-size: 2.7em; } */
+    100% { font-size: 2.6em; }
+}

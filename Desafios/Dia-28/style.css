@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(253, 0, 0);
+
+    animation: color-hue linear 5s infinite;
+}
+
+h1 {
+    font-size: 4em;
+    color: white;
+    text-align: center;
+
+    
+}
+
+@keyframes color-hue {
+    0% {
+        /* filter: hue-rotate(0deg); */
+        /* background-color: rgb(252, 0, 0); */
+    }
+
+    25% {
+        /* filter: hue-rotate(360deg); */
+        background-color: rgb(255, 187, 0);
+
+    }
+
+    50% {
+        background-color: rgb(251, 255, 0);
+
+    }
+
+    75% {
+        background-color: rgb(148, 0, 123);
+
+    }
+
+    100% {
+        background-color: rgb(255, 0, 0);
+
+    }
+}

@@ -21,6 +21,7 @@ span.whatsapp {
     width: 80px;
     height: 80px;
     border-radius: 50%;
+    cursor: pointer;
 
     background: rgb(185, 255, 79);
 

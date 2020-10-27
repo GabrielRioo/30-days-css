@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+nav.menu {
+    position: relative;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    width: 100vw;
+    height: 50px;
+
+    /* background-color: red; */
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+
+nav input#burguer-menu {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+
+    transform: scale(3);
+}
+
+nav input#burguer-menu:checked ~ div.item-menu {
+    opacity: 1;
+
+}
+
+div.item-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    line-height: 60px;
+    
+}
+
+div.item-menu a {
+    text-decoration: none;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    width: 100vw;
+    text-align: center;
+    color: rgb(116, 116, 116);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.item-menu a:nth-child(4) {
+    color: rgb(86, 226, 86);
+}
+
+
+

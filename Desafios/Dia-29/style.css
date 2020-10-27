@@ -34,25 +34,24 @@ nav input#burguer-menu {
 }
 
 nav input#burguer-menu:checked ~ div.item-menu {
-    opacity: 1;
-
-}
-
-div.item-menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    opacity: 0;
-    line-height: 60px;
-    
 }
+
+div.item-menu {
+    line-height: 60px;
+    display: none;    
+
+}
+
 
 div.item-menu a {
     text-decoration: none;
     border-bottom: 1px solid rgb(223, 223, 223);
-    width: 100vw;
+    /* width: 100vw; */
     text-align: center;
     color: rgb(116, 116, 116);
     font-weight: 700;
@@ -62,6 +61,29 @@ div.item-menu a {
 
 div.item-menu a:nth-child(4) {
     color: rgb(86, 226, 86);
+}
+
+@media(min-width: 780px) {
+    div.item-menu {
+        position: absolute;
+        right: 0;
+        top: -5px;
+        width: 50vw;
+
+        display: flex;
+        justify-content: space-around;
+        margin-right: 30px;
+    }
+
+    div.item-menu a {
+        display: inline-block;
+        border: none;
+    }
+
+    input#burguer-menu {
+        display: none;
+    }
+
 }
 
 

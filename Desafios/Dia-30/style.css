@@ -16,24 +16,40 @@ body {
 
 div.fogos {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 100vw;
+    height: 100vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
 
 div.fogos span {
+    position: absolute;
+
     width: 10px;
     height: 100px;
 
-    color: green;
     background-color: green;
 
-    transform-origin: 50% 0%;
+    transform-origin: 50% -30%;
+
+    animation: animate linear 3s infinite;
+
+    opacity: 0;
+}
+
+div.teste {
     position: absolute;
+    bottom: 200px;
+
+    width: 10px;
+    height: 100px;
+
+    background-color: yellowgreen;
+
+    animation: animate linear 2s infinite;
 }
 
 div.fogos span:nth-child(1){ transform: rotate(0deg);   }
@@ -44,3 +60,43 @@ div.fogos span:nth-child(5){ transform: rotate(180deg); }
 div.fogos span:nth-child(6){ transform: rotate(225deg); }
 div.fogos span:nth-child(7){ transform: rotate(270deg); }
 div.fogos span:nth-child(8){ transform: rotate(315deg); }
+
+div#fogos2 span {
+    width: 10px;
+    height: 100px;
+
+    background-color: red;
+
+    transform-origin: 50% -30%;
+    position: absolute;
+
+    animation-duration: 3s;
+
+}
+
+div#fogos3 span {
+
+    background-color: yellow;
+
+    transform-origin: 50% -30%;
+    position: absolute;
+
+    animation-duration: 6s;
+}
+
+@keyframes animate {
+    0% {
+        height: 0px;
+    }
+
+    50% {
+        height: 100px;
+        opacity: 1;
+    }
+
+    100% {
+        height: 0px;
+        opacity: 0;
+    }
+}
+

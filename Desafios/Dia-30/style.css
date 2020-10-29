@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+
+    background-color: rgb(58, 58, 58);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.fogos {
+    position: relative;
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+div.fogos span {
+    width: 10px;
+    height: 100px;
+
+    color: green;
+    background-color: green;
+
+    transform-origin: 50% 0%;
+    position: absolute;
+}
+
+div.fogos span:nth-child(1){ transform: rotate(0deg);   }
+div.fogos span:nth-child(2){ transform: rotate(45deg);  }
+div.fogos span:nth-child(3){ transform: rotate(90deg);  }
+div.fogos span:nth-child(4){ transform: rotate(135deg); }
+div.fogos span:nth-child(5){ transform: rotate(180deg); }
+div.fogos span:nth-child(6){ transform: rotate(225deg); }
+div.fogos span:nth-child(7){ transform: rotate(270deg); }
+div.fogos span:nth-child(8){ transform: rotate(315deg); }
